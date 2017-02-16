@@ -1,0 +1,38 @@
+"#imageViewerWindow":{
+	fullscreen:true,
+}
+"#container":{
+	maxZoomScale: 3,
+	minZoomScale: 1.01,
+	curZoomScale: 1.01,
+	contentWidth: "100%",
+	scrollingEnabled: true,
+	disableBounce: false,
+	backgroundColor:'transparent'
+}
+"#shadow":{
+	opacity: 0,
+	backgroundColor: '#000000'
+}
+"Window":{
+	fullscreen: true
+}
+"#image[platform=ios]":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.SIZE
+}
+"#closeButton":{
+	backgroundImage:WPATH('/icClose.png'),
+	height:22,
+	width:22,
+	left:20,
+	top:20,
+	touchEnabled:false
+}
+"#closeButtonClickArea":{
+	opacity: 0,
+	top:0,
+	left:0,
+	width:62,
+	height:62
+}

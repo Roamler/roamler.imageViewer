@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="imageViewerWindow" onOpen="onOpenWindow" onClose="closeWindow" >
+		<View id="shadow" />
+		<ScrollView id="container" onDragend ="dragend" onScroll="scroll" platform="ios">
+			<ImageView id="image" onClick="imageClick" onDblclick="imageDoubleClick" />
+		</ScrollView>
+		<View id="imageWrapper" platform="android"/>
+		<View id="closeButtonClickArea" onClick="closeImageViewer"><Button id="closeButton"></Button></View>
+	</Window>
+</Alloy>
