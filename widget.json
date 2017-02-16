@@ -1,8 +1,8 @@
 {
 	"id": "roamler.imageViewer",
 	"name": "roamler.imageViewer",
-	"description" : "",
-	"author": "",
+	"description" : "Cross platform imageviewer",
+	"author": "Roamler - Jan van Kampen",
 	"version": "1.0",
 	"copyright":"Copyright Roamler(c) 2017",
 	"license":"MIT",
