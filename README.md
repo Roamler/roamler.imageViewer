@@ -1,2 +1,19 @@
 # roamler.imageViewer
 Cross Platform (iOS &amp; Android) widget for viewing and zooming images
+
+This image viewer is a Facebook-like image viewer to be able to view an image full screen with zoom capabilities. You can dismiss the image just like on Facebook by swiping it away in any direction you want.
+
+## Dependencies
+There is only one dependency, which is for Android. You'll need [TiTouchImageView](https://github.com/iotashan/TiTouchImageView) to get this to work. Just download that module and add it to your app.
+
+## Implementation
+
+The implementation is really simple. You basically only need one line of code in your controller
+
+    Alloy.createWidget('roamler.imageViewer').openImageViewer(image);
+
+But be aware, the `image` has to be a blob, remote images don't work. I would recommend using [To.ImageView](https://github.com/Topener/To.ImageCache) to fetch remote images properly including a callback in which you can insert this module, like below
+
+    require('To.ImageCache').cache('http://example.com/image.jpg', 25000, function(blob){
+        Alloy.createWidget('roamler.imageViewer').openImageViewer(blob);
+    });
