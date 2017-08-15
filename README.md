@@ -6,6 +6,15 @@ This image viewer is a Facebook-like image viewer to be able to view an image fu
 ## Dependencies
 There is only one dependency, which is for Android. You'll need [TiTouchImageView](https://github.com/iotashan/TiTouchImageView) to get this to work. Just download that module and add it to your app.
 
+## Installation
+
+To install this widget, unzip the latest version in the `app/widget` directory (create the widget directory if it doesn't exist) and then add the widget to `config.json` file.
+
+    "dependencies": {
+        "roamler.imageViewer": "1.0"
+    }
+
+
 ## Implementation
 
 The implementation is really simple. You basically only need one line of code in your controller
