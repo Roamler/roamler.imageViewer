@@ -26,3 +26,6 @@ But be aware, the `image` has to be a blob, remote images don't work. I would re
     require('To.ImageCache').cache('http://example.com/image.jpg', 25000, function(blob){
         Alloy.createWidget('roamler.imageViewer').openImageViewer(blob);
     });
+
+## iOS Screenshot
+![Simulator Screenshot](https://user-images.githubusercontent.com/1898949/29319843-a8b17a5e-81d5-11e7-9e10-af100a508394.png)
