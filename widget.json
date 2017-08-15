@@ -7,7 +7,7 @@
 	"copyright":"Copyright Roamler(c) 2017",
 	"license":"MIT",
 	"min-alloy-version": "1.0",
-	"min-titanium-version":"2.1",
+	"min-titanium-version":"5.0",
 	"tags":"",
 	"platforms":"android,ios"
 }
